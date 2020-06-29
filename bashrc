@@ -3,7 +3,7 @@
 # for examples
 
 is_installed(){
-    echo `dpkg-query -W -f='${Status}' $1 | grep -c "ok installed"`
+    echo `dpkg-query -W -f='${Status}' $1 2>/dev/null | grep -c "ok installed"`
 }
 
 if [ -f "/usr/local/bin/virtualenvwrapper.sh" ] 
@@ -125,7 +125,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
 
 
 if [ `is_installed docker-ce-cli` -eq "1" ]; then
