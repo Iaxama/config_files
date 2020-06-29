@@ -1,0 +1,20 @@
+Host iiticubws003
+    HostName 10.240.12.11
+    User isaac
+    Port 2222
+
+Host iiticubsrv19
+    HostName 10.255.35.166
+
+Host zynq-myir
+    HostName 10.0.0.2
+    User icub
+
+Host icubPurple
+	User icub
+	HostName 10.240.1.14
+
+Host icub-cuda
+	User icub
+	HostName 10.0.0.40
+	ProxyCommand ssh icubPurple nc %h %p 2> /dev/null
