@@ -18,3 +18,13 @@ Host icub-cuda
 	User icub
 	HostName 10.0.0.40
 	ProxyCommand ssh icubPurple nc %h %p 2> /dev/null
+
+Host icub-head
+	User icub
+	HostName 10.0.0.2
+	ProxyCommand ssh icubPurple nc %h %p 2> /dev/null
+
+Host icub23
+	User icub
+	HostName 10.0.0.23
+	ProxyCommand ssh icubPurple nc %h %p 2> /dev/null

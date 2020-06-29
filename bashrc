@@ -199,3 +199,4 @@ start_docker(){
     docker exec -it $1 bash
 }
 docker_alias_completion_wrapper __docker_complete_containers_all start_docker
+
