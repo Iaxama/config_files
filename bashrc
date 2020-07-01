@@ -128,5 +128,5 @@ fi
 
 
 if [ `is_installed docker-ce-cli` -eq "1" ]; then
-    source ./bashrc_docker
+    source $HOME/.bashrc_docker
 fi
