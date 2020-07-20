@@ -1,0 +1,16 @@
+#REPO                                                                    COMMIT
+https://github.com/s4hri/ATIS-Attention                                  b49aef81a41cbafff878c6172c7aa3a45c8ed4a7
+https://github.com/event-driven-robotics/bordercell-attention.git        f1abf3ae58183b8f5be308c70b5c0a72e807029c
+https://github.com/event-driven-robotics/docker-resources                6ffa1624b9889252d0debee66ca0a106070e4c5c
+https://github.com/robotology/event-driven                               a80779627184467bc295bc984eeb0c64b5d0b00a
+https://github.com/robotology/event-driven.git                           972342cef2f114e3807831c56d1a9ea33275294f
+https://github.com/event-driven-robotics/gazebo-yarp-plugins.git         020167f81464ecd6e0db50fdc456d7bf94498431
+https://github.com/robotology/icub-main.git                              16cbac20ee0e6691a86cb9789c8fe78113814cab
+https://github.com/lsrosa/icub-main.git                                  b7f8b7bac0bd70e3be44a4c05fc9b12dcfe50339
+https://github.com/event-driven-robotics/lsrosa.git                      d658e9728c577ddb5fdf815d3df238b7df19ab04
+https://github.com/2103simon/new-icub-fingertips.git                     24a7d75b64aeb7df7a74a6e4be53a0118f216300
+https://github.com/iaxama/phd_thesis.git                                 74c11a5c902aecbc6d1e15384ba1ff5cfb9b3206
+https://github.com/robotology/robotology-superbuild.git                  9278e1d485703abc7178cb6962e4d4e411155bc6
+https://github.com/xEnVrE/vision-based-manipulation-simulation.git       78bbfa87d70a7a5c2ae63c06b7190d5b2f00bca0
+https://git.robotology.eu/isaac/wp5-event-driven-learning.git            431dcf0366108855666bc51ca9668f2ae2d68d41
+https://github.com/event-driven-robotics/ZCB_Head.git                    5786ba91d5f82d62b694ab459ee320fb2c6b5eca
