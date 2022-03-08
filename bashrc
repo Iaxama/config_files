@@ -6,10 +6,10 @@ is_installed(){
     echo `dpkg-query -W -f='${Status}' $1 2>/dev/null | grep -c "ok installed"`
 }
 
-if [ -f "/usr/local/bin/virtualenvwrapper.sh" ] 
+if [ -f "/usr/share/virtualenvwrapper/virtualenvwrapper.sh" ] 
 then
     export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-    source /usr/local/bin/virtualenvwrapper.sh 
+    source /usr/share/virtualenvwrapper/virtualenvwrapper.sh 
 fi
 
 # If not running interactively, don't do anything

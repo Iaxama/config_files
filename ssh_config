@@ -34,3 +34,7 @@ Host icub24
 	User icub
 	HostName 10.0.0.24
 	ProxyCommand ssh icubPurple nc %h %p 2> /dev/null
+
+Host iiticubws074
+	User icub
+	HostName iiticubws074

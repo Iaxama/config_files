@@ -48,9 +48,9 @@ run_docker(){
     echo "Running $image_name in container $container_name"
     docker run -it --name $container_name \
         --hostname $container_name \
-        -v /media/miacono/Shared/workspace:/code \
-        -v /media/miacono/Shared/Applications:/apps \
-        -v /media/miacono/Shared/datasets:/data \
+        -v /media/miacono/Shared/code:/code \
+        -v /media/miacono/Shared/apps:/apps \
+        -v /media/miacono/Shared/data:/data \
         -v /tmp/.X11-unix/:/tmp/.X11-unix \
         -e DISPLAY=unix$DISPLAY \
         -e force_color_prompt=yes \
