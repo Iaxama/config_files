@@ -38,3 +38,4 @@ Host icub24
 Host iiticubws074
 	User icub
 	HostName iiticubws074
+	LocalForward 6006 127.0.0.1:6006
